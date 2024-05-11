@@ -451,7 +451,7 @@ nav {
 .grid-logo{
     margin-top: 2%;
     background: white;
-    /* border: 2px solid lime; */
+    border: 2px solid lime;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -461,19 +461,19 @@ nav {
 }
 
 .logo-img {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 50%;
     width: 50%;
 }
 
 .grid-text {
-    /* border: 2px solid rgb(255, 94, 0); */
+    border: 2px solid rgb(255, 94, 0);
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .grid-p {
-    /* border: 2px solid rgb(0, 0, 0); */
+    border: 2px solid rgb(0, 0, 0);
     font-size: 1rem;
     padding: 6%;
 }
@@ -481,7 +481,7 @@ nav {
 @media (max-width:715px){
     .mid-grid{
         grid-template-columns: repeat(1,1fr);
-        /* border: 5px solid blueviolet; */
+        border: 5px solid blueviolet;
     }
     .mid-text{
         font-size: 1.5rem;
@@ -489,11 +489,13 @@ nav {
 }
 
 .testimonial{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .test-top-text{
@@ -504,7 +506,7 @@ nav {
 }
 
 .users {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 2rem 2rem;
@@ -536,13 +538,13 @@ nav {
     margin-top: 3%;
     font-size: 15px;
     max-width: 88%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     text-align: center;
     color: #555;
 }
 
 .user-icon-container{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     background-color: var(--background-color);
     height: 3.5rem;
     width: 3.5rem;
@@ -567,14 +569,14 @@ nav {
 
 .username{
 
-    /* border: 2px solid red; */
+    border: 2px solid red;
     color: #6366F1;
     font-size: 15px;
     font-weight: bold;
 }
 
 .user-pro{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     margin-bottom: 3%;
     color: #555;
 }
@@ -592,5 +594,15 @@ nav {
     .test-top-text{
         margin-top: 3%;
         font-size: 27px;
+    }
+}
+
+@media (max-width:375px){
+    .test-top-text{
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .above-logo-text {
+        font-size: 25px;
     }
 }

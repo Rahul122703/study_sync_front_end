@@ -489,7 +489,7 @@ nav {
 }
 
 .testimonial{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -504,7 +504,7 @@ nav {
 }
 
 .users {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 2rem 2rem;
@@ -536,13 +536,13 @@ nav {
     margin-top: 3%;
     font-size: 15px;
     max-width: 88%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     color: #555;
 }
 
 .user-icon-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: var(--background-color);
     height: 3.5rem;
     width: 3.5rem;
@@ -567,14 +567,14 @@ nav {
 
 .username{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: #6366F1;
     font-size: 15px;
     font-weight: bold;
 }
 
 .user-pro{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 3%;
     color: #555;
 }

@@ -733,7 +733,7 @@ nav {
     box-sizing: border-box;
     height: 320px;
     max-width: 1280px;
-    border: 2px solid rgb(8, 252, 0);
+    /* border: 2px solid rgb(8, 252, 0); */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -741,7 +741,7 @@ nav {
 
 .left-pad{
     box-sizing: border-box;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     height: 100%;
     margin-left: 2.8%;
 }
@@ -810,7 +810,7 @@ nav {
 }
 
 .footer-right{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 47px;
@@ -822,7 +822,7 @@ nav {
 }
 
 .bar-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 124px;
 }
 
@@ -865,7 +865,7 @@ nav {
         width: 44%;
     }
     .left-pad{
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
     .footer-right{
         display: flex;

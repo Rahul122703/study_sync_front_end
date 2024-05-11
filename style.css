@@ -269,7 +269,7 @@ nav {
     }
     .above-logo-text{
         /* border: 2px solid red; */
-        font-size: 10;
+        font-size: 10px;
     }
 }
 
@@ -485,5 +485,110 @@ nav {
     }
     .mid-text{
         font-size: 1.5rem;
+    }
+}
+
+.testimonial{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.test-top-text{
+    padding: 2% 0% 2% 0%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: inter-extraBold;
+}
+
+.users {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem 2rem;
+    max-width: 218vh;
+    padding: 0% 2% 0% 2%;
+}
+
+.commenter-card{
+    border: 1px solid rgb(171, 163, 163);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    gap: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s;
+}
+
+.commenter-card:hover {
+    border: 1.5px solid #6366F1;
+    transform: scale(1.1);
+}
+
+.say{
+    margin-top: 3%;
+    font-size: 15px;
+    max-width: 88%;
+    border: 2px solid red;
+    text-align: center;
+    color: #555;
+}
+
+.user-icon-container{
+    border: 2px solid red;
+    background-color: var(--background-color);
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-face {
+    height: 100%;
+    width: 100%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.username{
+
+    border: 2px solid red;
+    color: #6366F1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.user-pro{
+    border: 2px solid red;
+    margin-bottom: 3%;
+    color: #555;
+}
+
+@media (max-width:1033px){
+    .users {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:700px){
+    .users {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .commenter-card{
     }
 }

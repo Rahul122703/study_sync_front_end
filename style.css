@@ -497,7 +497,7 @@ nav {
 }
 
 .test-top-text{
-    padding: 2% 0% 2% 0%;
+    margin: 2% 0% 2% 0%;
     font-size: 30px;
     font-weight: bold;
     font-family: inter-extraBold;
@@ -589,6 +589,8 @@ nav {
     .users {
         grid-template-columns: repeat(1,1fr);
     }
-    .commenter-card{
+    .test-top-text{
+        margin-top: 3%;
+        font-size: 27px;
     }
 }

@@ -19,11 +19,6 @@ body{
 
 }
 
-a {
-    color: rgb(37, 37, 37);
-    text-decoration: none;
-}
-
 a:hover{
     color: #3c3cf1;
 }
@@ -64,8 +59,13 @@ nav {
     font-size: 2rem;
     font-family: inter-extraBold;
     font-weight: bold;
+ 
 }
 
+#random123 {
+    text-decoration: none;
+    color: black;
+}
 
 .nav-links {
     width:30%;
@@ -83,6 +83,7 @@ nav {
     font-weight: 950;
     display: inline-block;
     color: #74747c;
+    text-decoration: none;
 }
 /* contact-button */
 
@@ -451,7 +452,7 @@ nav {
 .grid-logo{
     margin-top: 2%;
     background: white;
-    border: 2px solid lime;
+    /* border: 2px solid lime; */
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
@@ -461,19 +462,19 @@ nav {
 }
 
 .logo-img {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 50%;
     width: 50%;
 }
 
 .grid-text {
-    border: 2px solid rgb(255, 94, 0);
+    /* border: 2px solid rgb(255, 94, 0); */
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .grid-p {
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
     font-size: 1rem;
     padding: 6%;
 }
@@ -481,7 +482,7 @@ nav {
 @media (max-width:715px){
     .mid-grid{
         grid-template-columns: repeat(1,1fr);
-        border: 5px solid blueviolet;
+        /* border: 5px solid blueviolet; */
     }
     .mid-text{
         font-size: 1.5rem;
@@ -489,7 +490,7 @@ nav {
 }
 
 .testimonial{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -499,19 +500,19 @@ nav {
 }
 
 .test-top-text{
-    margin: 2% 0% 2% 0%;
+    margin: 2% 0% 2.6% 0%;
     font-size: 30px;
     font-weight: bold;
     font-family: inter-extraBold;
 }
 
 .users {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 2rem 2rem;
-    max-width: 218vh;
-    padding: 0% 2% 0% 2%;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .commenter-card{
@@ -538,13 +539,13 @@ nav {
     margin-top: 3%;
     font-size: 15px;
     max-width: 88%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     color: #555;
 }
 
 .user-icon-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: var(--background-color);
     height: 3.5rem;
     width: 3.5rem;
@@ -569,14 +570,14 @@ nav {
 
 .username{
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: #6366F1;
     font-size: 15px;
     font-weight: bold;
 }
 
 .user-pro{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 3%;
     color: #555;
 }
@@ -606,3 +607,270 @@ nav {
         font-size: 25px;
     }
 }
+
+.update {
+    background: #f0f0f0;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    max-width: 1280px;
+    min-height: 365px;
+    margin: 0 auto;
+    margin:3.2% auto 2.3% auto;
+    overflow: hidden;
+}
+
+.update-left {
+    overflow: hidden;
+    width: 50%;
+}
+
+.update-left-img {
+    border-radius: 10px;
+    width: 110%;
+    height: 100%;
+}
+
+
+/* here */
+.update-right {
+    margin-left: 4%;
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.update-right-top{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-top{
+    /* border: 2px solid rgb(162, 255, 11); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.update-top-text {
+    /* border: 2px solid red; */
+    color: #6366F1;
+    font-size: 40px;
+    text-align:left;
+    font-family: inter-extraBold;
+}
+
+.update-below-top{
+    /* border: 2px solid red; */
+    text-align:left;
+    color: #777;
+}
+
+.update-input{
+    margin:2% 0% 6% 0%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+}
+
+.update-input-class{
+    border: 0.1px solid;
+    border-radius: 5px;
+}
+
+.update-input-class:focus{
+    border: none;
+    box-shadow: 2px 2px 5px ;
+}
+
+.send-button {
+    box-sizing: border-box;
+    margin-left: 2%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    background: #5c5cec;
+    color: white;
+    padding: 9px 13px;;
+    align-self: flex-end;
+    font-size: 12px;
+}
+
+.send-button:hover{
+    background: #3c3cf1;
+}
+
+.terms-service{
+    /* border: 2px solid red; */
+    color: #777;
+    font-size: 13px;
+}
+
+@media (max-width:660px){
+    .update-left{
+        display: none;
+    }
+
+  .update-right{
+    width: 100%;
+  }
+    .update-top-text{
+        font-size: 25px;
+    }
+    .update{
+        justify-content: flex-start;
+    }
+    .terms-service{
+       width: 100%;
+    }
+}
+
+
+.footer{
+    box-sizing: border-box;
+    height: 320px;
+    max-width: 1280px;
+    border: 2px solid rgb(8, 252, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-pad{
+    box-sizing: border-box;
+    border: 2px solid pink;
+    height: 100%;
+    margin-left: 2.8%;
+}
+
+.footer-left{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.web-info{
+    margin-top: 8%;
+    /* border: 2px solid rgb(19, 31, 0); */
+    display: flex;
+    justify-content: space-between;
+    height: 11%;
+    width: 53%;
+}
+
+.web-logo-container{
+    /* border: 2px solid rgb(76, 9, 233); */
+    
+}
+
+.web-logo{
+    /* border: 2px solid rgb(8, 213, 240); */
+    height: 100%;
+    width: 100%;
+}
+
+.web-name {
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-family: inter-extraBold;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.footer-p{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    color: #555;
+    font-size: 16px;
+    margin: 3% 0% 3% 0%;
+}
+
+.footer-companies-logo{
+    /* border:2px solid red; */
+    margin-bottom: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    width: 40%;
+}
+
+.footer-logo{
+    /* border: 2px solid red; */
+}
+
+.footer-right{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 47px;
+    margin-right: 1.5%;
+}
+
+.bar-head-container{
+    /* border:2px solid black; */
+}
+
+.bar-container{
+    border: 2px solid red;
+    width: 124px;
+}
+
+.bar-head{
+    margin-top: 27%;
+    /* border: 2px solid red; */
+    font-weight: bold;
+    font-family: inter-extraBold;;
+}
+
+.below-bar-head-container{
+    height: 70%;
+    margin-top: 24%;
+    /* border: 3px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.below-bar-head{
+    height: 100%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+}
+
+.below-bar-head li{ 
+    margin-bottom: 20%;
+    font-size: 15px;
+    color: #777;
+    list-style: none;
+}
+
+@media (max-width:1075px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .web-info{
+        width: 44%;
+    }
+    .left-pad{
+        border: 2px solid black;
+    }
+    .footer-right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
